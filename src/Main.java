@@ -15,7 +15,7 @@ public class Main {
             String command = scanner.nextLine();
 
             if (command.equals("W")) {
-                if (y + 1 < 20) {
+                if (y + 1 <= 20) {
                     y += 1;
                 } else {
                     System.out.println("[Программа] Достигнута граница участка!");
@@ -33,7 +33,7 @@ public class Main {
                     System.out.println("[Программа] Достигнута граница участка!");
                 }
             } else if (command.equals("D")) {
-                if (x + 1 < 15) {
+                if (x + 1 <= 15) {
                     x += 1;
                 } else {
                     System.out.println("[Программа] Достигнута граница участка!");
